@@ -1,0 +1,27 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets & credentials (never commit)
+service_account.json
+credentials.json
+client_secret*.json
+token.json
+*.pem
+.env
+.env.*
+
+# Local / generated data (may contain real user IDs)
+output/
+*.csv
+!sample_data/
+
+# Jupyter / IDE
+.ipynb_checkpoints/
+.DS_Store
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+.pytest_cache/
